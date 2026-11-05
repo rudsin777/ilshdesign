@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">ILSH Design - interjera dizaina studija</title>
+<meta name="description" content="ILSH Design - Ingas Laizānes-Šarovas interjera dizaina studija. Interjera dizains, grafiskais dizains, pasākumu dizains un ēdiena dizains. WhatsApp +371 29185418.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2323211F'/%3E%3Cpath fill='%23F1ECE6' d='M8.195000000000002 38.0V13.7H10.475000000000001V38.0Z M15.995000000000001 38.0V13.7H18.275000000000002V36.29H25.175V38.0Z M33.815 38.3Q31.834999999999997 38.3 30.529999999999998 37.474999999999994Q29.224999999999998 36.65 28.564999999999998 35.165Q27.904999999999998 33.68 27.755 31.7L29.764999999999997 31.1Q29.915 32.6 30.305 33.815Q30.695 35.03 31.535 35.735Q32.375 36.44 33.845 36.44Q35.464999999999996 36.44 36.364999999999995 35.599999999999994Q37.265 34.76 37.265 32.93Q37.265 31.310000000000002 36.47 30.14Q35.675 28.97 34.295 27.68L30.005 23.57Q28.865 22.46 28.325 21.275Q27.785 20.09 27.785 18.68Q27.785 16.16 29.284999999999997 14.81Q30.784999999999997 13.46 33.275 13.46Q34.565 13.46 35.599999999999994 13.790000000000001Q36.635 14.120000000000001 37.37 14.855Q38.105 15.59 38.525 16.759999999999998Q38.945 17.93 39.095 19.61L37.144999999999996 20.12Q37.025 18.59 36.65 17.495Q36.275 16.400000000000002 35.480000000000004 15.830000000000002Q34.685 15.260000000000002 33.275 15.260000000000002Q31.775 15.260000000000002 30.814999999999998 16.04Q29.854999999999997 16.82 29.854999999999997 18.470000000000002Q29.854999999999997 19.46 30.229999999999997 20.270000000000003Q30.604999999999997 21.080000000000002 31.564999999999998 22.009999999999998L35.855 26.060000000000002Q37.295 27.41 38.345 29.060000000000002Q39.394999999999996 30.71 39.394999999999996 32.78Q39.394999999999996 34.61 38.69 35.84Q37.985 37.07 36.724999999999994 37.685Q35.464999999999996 38.3 33.815 38.3Z M43.655 38.0V13.7H45.935V24.47H53.584999999999994V13.7H55.864999999999995V38.0H53.584999999999994V26.18H45.935V38.0Z'/%3E%3Crect x='6.0' y='44' width='52.0' height='2' fill='%23CF9A6E'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADKElEQVR4nMSXW0gUURjH/2d2dr3sei0Ct9rd0ocUzZQgwyIKIbqYL4E9VIqICL2kGZZFpFSaaJuVZGIhQRRRmHilh7SHSotSyMDKdDckUsh098WVdadz1hydVWFv7v6ezvedOfP/z3fOnJnDYxE6nS6cg62ANlNAyDYCrIMXEIBxCEI/bfbYwOkNBsPkfB+Zb0RrNxwA4RqosBqriSD8gmDL/WEc7RAN6HQb98sI1wlfYps9yEwQjUYTwXP4QgiJgi+hlbBYbQk8Fc/yuTiDTrWC507yhC04P8G0OYEQiYHErQlQqVRivD05GQpFwLI3kMvliI3dApVSKckHBQUiKSlRklMGByMxMUGSY9ocdaFdnKyqLEdMzGYxrr9Xi7VrIpeI79m9Cy3Nz3HhXDHaWptQVHha7FOr1bh9Uy+5XqPVQF9VKckxbR5uQNcMSksvIfPYcYyNj4PneTxsbEBCfDw+Dwy4dC/OmYuY4GJCQ0Mg5+V2cYbVasWrrm76OmtXHMNixxzDrQpMTZlgMpuwM2UH3vX02nMN9xvhDk5VYDkul13B9YqrSEvbB09wqwKM3t4PKCg8ixp9NUJUSjS9aJH0BwQoUF9XK8bBwUrvGmB8/NSH3Lx81N29g+lpCzo6X4p9FssM8vJPiXFcXCxqb+mX3MO5KSArdw1+/YYzRcUooa8j3dYXhjiMsS/AZRahcwYEaahQKJB++JAYs0q0tbcjI30hJziMEVjCMemsAcFhIHuQiyXFCAxc2CG/Dw1jvTpqxTEsFtw14Aib37c9PcjJzoJMJrNvyampKRg2GOEqTi3C8mtldlFGV/drPH7yFNU3alBdWYGMI+n2nbCvv9+edxUSvUkrwAN0Wi3+TEzAbDbDHTx6DRkGo+tl96oBT5EYeHY+A77gaHmz2PZ4DXiK36eAo48/Bj/BtDkyd2LxC0ybVcBvBpg2Z8NMHd2iJ+FjmCbT5gyG3wYizObAx9hgy2baMhb8nTINRoaFvKezspd+6kKwmswdTjNHjKOtLJTN56mJobDwiAcEAvvqWJgR+tVVwgv8P56/oc1H9Hh+YsT4U/x3/wcAAP//C0+lUgAAAAZJREFUAwCPbgmCk2VybAAAAABJRU5ErkJggg==">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+<script>
+  (function(){
+    var d = document.documentElement;
+    d.classList.add('js');
+    var t = 'light';
+    try{ if(localStorage.getItem('ilsh-theme') === 'dark') t = 'dark'; }catch(e){}
+    d.setAttribute('data-theme', t);
+  })();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Manrope:wght@400;500;600&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F5F2EE;
+    --stone:#EAE4DC;
+    --card:#FFFFFF;
+    --ink:#23211F;
+    --ink-soft:#6F6A64;
+    --line:rgba(35,33,31,.13);
+    --bronze:#A8754F;
+    --bronze-hover:#8A5D3C;
+    --on-bronze:#FFFFFF;
+    --vein:#8E8880;
+    --deep:#1C1A18;
+    --shadow:0 26px 50px -32px rgba(40,30,20,.45);
+    --shadow-strong:0 34px 64px -30px rgba(40,30,20,.55);
+    --font-head:'Bodoni Moda',Didot,'Times New Roman',serif;
+    --font-label:'Oswald','Arial Narrow',sans-serif;
+    --font-body:'Manrope','Segoe UI',system-ui,-apple-system,'Helvetica Neue',sans-serif;
+    --maxw:1240px;
+    --fade:.25s;
+    --fade-theme:.45s;
+    color-scheme: light;
+  }
+  :root[data-theme="dark"]{
+    --bg:#121110;
+    --stone:#1A1917;
+    --card:#1F1D1B;
+    --ink:#F1ECE6;
+    --ink-soft:#ADA59C;
+    --line:rgba(241,236,230,.12);
+    --bronze:#CF9A6E;
+    --bronze-hover:#E0B18A;
+    --on-bronze:#1A120B;
+    --vein:#5E5952;
+    --deep:#0C0B0A;
+    --shadow:0 26px 50px -32px rgba(0,0,0,.9);
+    --shadow-strong:0 34px 64px -30px rgba(0,0,0,.95);
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;transition-delay:0s !important;}
+  }
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background-color var(--fade-theme) ease,color var(--fade-theme) ease;}
+  img,svg{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;transition:color var(--fade) ease,background-color var(--fade) ease,border-color var(--fade) ease,opacity var(--fade) ease;}
+  h1,h2,h3,h4{font-family:var(--font-head);font-weight:400;margin:0;color:var(--ink);line-height:1.08;letter-spacing:-.01em;transition:color var(--fade-theme) ease;}
+  h1 em,h2 em,h3 em{font-style:italic;color:var(--bronze);transition:color var(--fade-theme) ease;}
+  p{margin:0;}
+  ul{margin:0;padding:0;list-style:none;}
+  button,input,select,textarea{font-family:inherit;}
+  button{cursor:pointer;transition:color var(--fade) ease,background-color var(--fade) ease,border-color var(--fade) ease,opacity var(--fade) ease;}
+  :focus-visible{outline:2px solid var(--bronze);outline-offset:3px;}
+  section[id]{scroll-margin-top:80px;}
+
+  .skip-link{position:absolute;left:-9999px;top:0;background:var(--bronze);color:var(--on-bronze);padding:.75rem 1.25rem;z-index:300;}
+  .skip-link:focus{left:0;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem);}
+
+  .label{font-family:var(--font-label);font-weight:300;font-size:.82rem;letter-spacing:.32em;text-transform:uppercase;color:var(--bronze);display:inline-flex;align-items:center;gap:.9rem;transition:color var(--fade-theme) ease;}
+  .label .n{color:var(--ink-soft);letter-spacing:.12em;}
+
+  /* header */
+  header{position:sticky;top:0;z-index:200;background:color-mix(in srgb, var(--bg) 90%, transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .nav-row{display:flex;align-items:center;gap:2rem;padding-top:.5rem;padding-bottom:.5rem;}
+  .brand{display:flex;align-items:center;flex:none;}
+  .brand-logo{height:56px;width:auto;display:block;transition:filter var(--fade-theme) ease;}
+  [data-theme="dark"] .brand-logo{filter:invert(1) hue-rotate(180deg);}
+  nav.primary{display:flex;align-items:center;gap:2.2rem;margin-left:auto;}
+  nav.primary a{font-family:var(--font-label);font-weight:300;font-size:.86rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap;position:relative;padding:.3rem 0;}
+  nav.primary a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--bronze);opacity:0;transition:opacity var(--fade) ease;}
+  nav.primary a:hover{color:var(--ink);}
+  nav.primary a:hover::after{opacity:1;}
+  .header-actions{display:flex;align-items:center;gap:.8rem;}
+  nav.primary + .header-actions{margin-left:1rem;}
+
+  .lang-switch{display:flex;align-items:center;}
+  .lang-switch button{background:none;border:none;padding:.3rem .45rem;font-family:var(--font-label);font-weight:300;font-size:.8rem;letter-spacing:.12em;color:var(--ink-soft);transition:color var(--fade) ease;}
+  .lang-switch button + button{border-left:1px solid var(--line);}
+  .lang-switch button:hover{color:var(--ink);}
+  .lang-switch button[aria-pressed="true"]{color:var(--bronze);font-weight:400;}
+
+  .icon-btn{width:2.3rem;height:2.3rem;border-radius:50%;border:1px solid var(--line);background:none;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);flex:none;transition:border-color var(--fade) ease,color var(--fade) ease;}
+  .icon-btn:hover{border-color:var(--bronze);color:var(--bronze);}
+  .icon-btn svg{width:1.05rem;height:1.05rem;}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:.95rem 1.8rem;font-family:var(--font-label);font-weight:400;font-size:.84rem;letter-spacing:.24em;text-transform:uppercase;border:1px solid transparent;border-radius:0;transition:background-color var(--fade) ease,color var(--fade) ease,border-color var(--fade) ease,box-shadow var(--fade) ease;white-space:nowrap;cursor:pointer;}
+  .btn svg{width:1rem;height:1rem;flex:none;}
+  .btn-solid{background:var(--bronze);color:var(--on-bronze);}
+  .btn-solid:hover{background:var(--bronze-hover);box-shadow:0 16px 30px -18px rgba(138,93,60,.9);}
+  .btn-line{background:transparent;color:var(--ink);border-color:var(--ink);}
+  .btn-line:hover{background:var(--ink);color:var(--bg);}
+  .btn-sm{padding:.65rem 1.1rem;font-size:.76rem;}
+  .hero .btn-line,.on-dark .btn-line{color:#F1ECE6;border-color:rgba(241,236,230,.6);}
+  .hero .btn-line:hover,.on-dark .btn-line:hover{background:#F1ECE6;color:#1C1A18;border-color:#F1ECE6;}
+
+  .menu-toggle{display:none;width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--line);background:var(--bg);position:relative;flex:none;transition:border-color var(--fade) ease,background-color var(--fade) ease;}
+  .menu-toggle:hover{border-color:var(--bronze);}
+  .menu-toggle i{position:absolute;left:50%;top:50%;width:18px;height:1.5px;margin-left:-9px;background:var(--ink);transition:transform .35s ease,opacity .25s ease,background-color var(--fade) ease;}
+  .menu-toggle i:nth-child(1){transform:translateY(-6px);}
+  .menu-toggle i:nth-child(3){transform:translateY(6px);}
+  .menu-toggle[aria-expanded="true"] i:nth-child(1){transform:rotate(45deg);}
+  .menu-toggle[aria-expanded="true"] i:nth-child(2){opacity:0;}
+  .menu-toggle[aria-expanded="true"] i:nth-child(3){transform:rotate(-45deg);}
+
+  /* mobile + tablet menu */
+  .mobile-nav{position:fixed;inset:0;z-index:190;background:var(--stone);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:.2rem;padding:6rem clamp(1.5rem,7vw,4rem) 2.5rem;overflow:hidden auto;
+    visibility:hidden;pointer-events:none;clip-path:circle(0px at calc(100% - 2.6rem) 2.3rem);
+    transition:clip-path .75s cubic-bezier(.7,0,.2,1),visibility 0s linear .75s,background-color var(--fade-theme) ease;}
+  .mobile-nav.open{visibility:visible;pointer-events:auto;clip-path:circle(160% at calc(100% - 2.6rem) 2.3rem);
+    transition:clip-path .75s cubic-bezier(.7,0,.2,1),visibility 0s linear 0s,background-color var(--fade-theme) ease;}
+  .mobile-nav svg.mv{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.55;}
+  .m-link{position:relative;display:flex;align-items:baseline;gap:1rem;font-family:var(--font-head);font-size:clamp(2.2rem,7.5vw,3.2rem);line-height:1.2;color:var(--ink);opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease,color var(--fade) ease;}
+  .m-link small{font-family:var(--font-label);font-weight:300;font-size:.8rem;letter-spacing:.15em;color:var(--bronze);}
+  .m-link:hover{color:var(--bronze);}
+  .mobile-nav.open .m-link,.mobile-nav.open .m-extra{opacity:1;transform:none;transition-delay:calc(.3s + var(--i,0) * .07s);}
+  .mobile-nav.open .m-link:hover{transition-delay:0s;}
+  .m-extra{position:relative;margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease;}
+  .m-contact{position:relative;margin-top:1.4rem;color:var(--ink-soft);font-size:.92rem;opacity:0;transition:opacity .45s ease;}
+  .mobile-nav.open .m-contact{opacity:1;transition-delay:.85s;}
+  .m-contact a{color:var(--ink);font-weight:500;}
+  .m-contact a:hover{color:var(--bronze);}
+
+  /* hero */
+  .hero{position:relative;overflow:hidden;min-height:clamp(620px,94vh,920px);display:flex;align-items:flex-end;padding:clamp(6rem,10vw,8rem) 0 clamp(3rem,6vw,4.5rem);background:#2A2622;color:#F1ECE6;}
+  .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:linear-gradient(150deg,#5B5047,#1F1B18);}
+  .hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(20,17,14,.25) 0%,rgba(20,17,14,.35) 50%,rgba(20,17,14,.85) 100%),linear-gradient(90deg,rgba(20,17,14,.55),rgba(20,17,14,0) 65%);}
+  .hero .wrap{position:relative;z-index:2;width:100%;}
+  .hero-grid{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:end;}
+  .hero-copy{max-width:50rem;}
+  .hero-copy .label{color:#E2B58F;}
+  .hero-copy h1{color:#fff;font-size:clamp(2.9rem,7vw,6.4rem);line-height:.98;margin:1.2rem 0 1.4rem;}
+  .hero-copy h1 em{color:#E2B58F;}
+  .hero-copy p.lede{font-size:clamp(1rem,1.4vw,1.14rem);color:rgba(255,255,255,.86);max-width:48ch;margin-bottom:2.2rem;}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:1rem;}
+  .hero-side{display:flex;flex-direction:column;align-items:flex-end;gap:1.4rem;}
+  .hero-pause{width:2.7rem;height:2.7rem;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(20,17,14,.3);color:#fff;display:flex;align-items:center;justify-content:center;transition:border-color var(--fade) ease,background-color var(--fade) ease;}
+  .hero-pause:hover{border-color:#fff;background:rgba(20,17,14,.6);}
+  .hero-pause svg{width:1rem;height:1rem;}
+  .hero-vert{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--font-label);font-weight:300;font-size:.78rem;letter-spacing:.4em;text-transform:uppercase;color:rgba(255,255,255,.7);}
+  .hero-services{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.22);margin-top:clamp(2.5rem,5vw,3.5rem);padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:.6rem 2.6rem;}
+  .hero-services span{font-family:var(--font-label);font-weight:300;font-size:.82rem;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.8);display:inline-flex;align-items:center;gap:.8rem;}
+  .hero-services span b{font-weight:300;color:#E2B58F;letter-spacing:.1em;}
+
+  section{padding:clamp(4.5rem,9vw,8rem) 0;transition:background-color var(--fade-theme) ease;}
+  .stone{background:var(--stone);}
+  .head-row{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap;margin-bottom:clamp(2.4rem,4.5vw,3.6rem);}
+  .head-row .left{max-width:40rem;}
+  .head-row .right{max-width:28rem;color:var(--ink-soft);}
+  .big-title{font-size:clamp(2.4rem,5vw,4.3rem);margin-top:1rem;}
+  .text{color:var(--ink-soft);font-size:1.03rem;max-width:56ch;margin-bottom:1rem;}
+  .big-title + .text{margin-top:1.4rem;}
+
+  /* marble / placeholder art */
+  .art{position:absolute;inset:0;width:100%;height:100%;}
+  .art{--mb:var(--stone);--mv1:var(--vein);--mv2:var(--bronze);--mo1:.55;--mo2:.6;--mo3:.4;transition:opacity var(--fade-theme) ease;}
+
+  /* studio */
+  .studio{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2.5rem,6vw,5.5rem);align-items:center;}
+  .portrait{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--stone);box-shadow:var(--shadow);transition:box-shadow .35s ease,background-color var(--fade-theme) ease;}
+  .portrait:hover{box-shadow:var(--shadow-strong);}
+  .portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .portrait .ph-name{position:absolute;left:1.6rem;bottom:1.5rem;right:1.6rem;}
+  .portrait .ph-name b{display:block;font-family:var(--font-head);font-weight:400;font-size:clamp(1.6rem,2.6vw,2.1rem);line-height:1.1;}
+  .portrait .ph-name span{font-family:var(--font-label);font-weight:300;font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--bronze);}
+  .portrait-frame{position:relative;}
+  .portrait-frame::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1px solid var(--bronze);pointer-events:none;opacity:.6;transition:border-color var(--fade-theme) ease;}
+  .sign{font-family:var(--font-head);font-style:italic;font-size:clamp(1.4rem,2.2vw,1.8rem);line-height:1.35;margin:1.8rem 0 0;padding-left:1.3rem;border-left:1px solid var(--bronze);transition:border-color var(--fade-theme) ease;}
+  .sign small{display:block;margin-top:.6rem;font-family:var(--font-label);font-style:normal;font-weight:300;font-size:.8rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ink-soft);}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);margin-top:2.4rem;border-top:1px solid var(--line);transition:border-color var(--fade-theme) ease;}
+  .fact{padding:1.2rem 1rem 0 0;}
+  .fact b{display:block;font-family:var(--font-head);font-weight:400;font-size:clamp(1.7rem,2.6vw,2.2rem);color:var(--bronze);line-height:1;transition:color var(--fade-theme) ease;}
+  .fact span{font-size:.86rem;color:var(--ink-soft);}
+
+  /* services accordion */
+  .acc-wrap{display:flex;gap:.8rem;height:clamp(460px,46vw,560px);}
+  .acc{position:relative;flex:1 1 0;min-width:0;overflow:hidden;background:var(--card);border:1px solid var(--line);transition:flex-grow .7s cubic-bezier(.6,0,.2,1),box-shadow .35s ease,background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .acc.active{flex-grow:3.4;box-shadow:var(--shadow);}
+  .acc .art{opacity:.75;--mb:var(--card);}
+  .pj .art,.portrait .art{--mb:color-mix(in srgb, var(--card) 55%, var(--stone));}
+  .acc-head{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;height:100%;width:100%;padding:1.6rem 1.4rem;background:none;border:none;text-align:left;color:var(--ink);}
+  .acc-num{font-family:var(--font-label);font-weight:300;font-size:.9rem;letter-spacing:.18em;color:var(--bronze);transition:color var(--fade-theme) ease;}
+  .acc-title{font-family:var(--font-head);font-size:clamp(1.6rem,2.3vw,2.1rem);line-height:1.1;writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;transition:opacity .3s ease,color var(--fade) ease;}
+  .acc:not(.active) .acc-head:hover .acc-title{color:var(--bronze);}
+  .acc.active .acc-title,.acc.active .acc-num{opacity:0;}
+  .acc-num{transition:opacity .3s ease,color var(--fade-theme) ease;}
+  .acc-body{position:absolute;z-index:2;inset:0;padding:clamp(1.6rem,3vw,2.6rem);display:flex;flex-direction:column;justify-content:flex-end;opacity:0;visibility:hidden;transition:opacity .35s ease,visibility 0s linear .35s;pointer-events:none;}
+  .acc.active .acc-body{opacity:1;visibility:visible;transition:opacity .5s ease .35s,visibility 0s linear 0s;pointer-events:auto;}
+  .acc-body .acc-n{font-family:var(--font-label);font-weight:300;font-size:.9rem;letter-spacing:.18em;color:var(--bronze);margin-bottom:auto;}
+  .acc-body h3{font-size:clamp(2rem,3.4vw,3rem);margin-bottom:.8rem;}
+  .acc-body p{color:var(--ink-soft);max-width:46ch;margin-bottom:1.2rem;}
+  .acc-body ul{display:flex;flex-wrap:wrap;gap:.5rem;}
+  .acc-body li{font-size:.82rem;padding:.38rem .85rem;border:1px solid var(--line);background:color-mix(in srgb, var(--card) 80%, transparent);transition:border-color var(--fade-theme) ease,background-color var(--fade-theme) ease;}
+
+  /* before / after */
+  .ba{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--stone);box-shadow:var(--shadow);--pos:50%;user-select:none;}
+  .ba-layer{position:absolute;inset:0;}
+  .ba-layer svg,.ba-layer img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .ba-before{clip-path:inset(0 calc(100% - var(--pos)) 0 0);}
+  .ba-tag{position:absolute;top:1.2rem;font-family:var(--font-label);font-weight:300;font-size:.8rem;letter-spacing:.3em;text-transform:uppercase;padding:.4rem .9rem;background:rgba(20,17,14,.6);color:#fff;z-index:3;pointer-events:none;}
+  .ba-tag.l{left:1.2rem;}
+  .ba-tag.r{right:1.2rem;background:rgba(168,117,79,.85);}
+  .ba-line{position:absolute;top:0;bottom:0;left:var(--pos);width:2px;margin-left:-1px;background:#fff;z-index:3;pointer-events:none;box-shadow:0 0 12px rgba(0,0,0,.25);}
+  .ba-knob{position:absolute;top:50%;left:var(--pos);width:3.4rem;height:3.4rem;margin:-1.7rem 0 0 -1.7rem;border-radius:50%;background:#fff;color:#23211F;display:flex;align-items:center;justify-content:center;z-index:4;pointer-events:none;box-shadow:0 10px 26px -8px rgba(0,0,0,.45);transition:background-color var(--fade) ease,color var(--fade) ease;}
+  .ba-knob svg{width:1.4rem;height:1.4rem;}
+  .ba:hover .ba-knob{background:var(--bronze);color:#fff;}
+  .ba input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:5;-webkit-appearance:none;appearance:none;}
+  .ba input:focus-visible ~ .ba-knob{outline:2px solid var(--bronze);outline-offset:4px;}
+  .ba-note{margin-top:1rem;font-size:.86rem;color:var(--ink-soft);display:flex;align-items:center;gap:.6rem;}
+  .ba-note svg{width:1.1rem;height:1.1rem;color:var(--bronze);}
+
+  /* projects */
+  .projects{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(6,1fr);grid-auto-rows:clamp(130px,13vw,190px);gap:clamp(.6rem,1.2vw,.9rem);}
+  .pj{position:relative;margin:0;overflow:hidden;background:var(--stone);grid-column:span 2;grid-row:span 2;transition:box-shadow .35s ease,background-color var(--fade-theme) ease;}
+  .pj:hover{box-shadow:var(--shadow-strong);}
+  .pj.w3{grid-column:span 3;}
+  .pj.w4{grid-column:span 4;}
+  .pj.t3{grid-row:span 3;}
+  .pj img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .pj figcaption{position:absolute;left:1rem;bottom:.9rem;z-index:2;font-family:var(--font-label);font-weight:300;font-size:.76rem;letter-spacing:.28em;text-transform:uppercase;color:var(--ink-soft);transition:color var(--fade-theme) ease;}
+  .pj.has-img{cursor:zoom-in;}
+  .pj.has-img figcaption{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+  .pj-cta{display:flex;justify-content:center;margin-top:2.4rem;}
+
+  /* lightbox */
+  .lb{position:fixed;inset:0;z-index:400;background:rgba(12,11,10,.92);display:flex;align-items:center;justify-content:center;padding:4rem 1rem;opacity:0;visibility:hidden;transition:opacity .35s ease,visibility 0s linear .35s;}
+  .lb.open{opacity:1;visibility:visible;transition:opacity .35s ease,visibility 0s linear 0s;}
+  .lb img{max-width:min(1200px,100%);max-height:100%;object-fit:contain;box-shadow:0 30px 80px -20px rgba(0,0,0,.8);}
+  .lb button{position:absolute;width:3rem;height:3rem;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.3);color:#fff;display:flex;align-items:center;justify-content:center;transition:border-color var(--fade) ease,background-color var(--fade) ease;}
+  .lb button:hover{border-color:#fff;background:rgba(168,117,79,.6);}
+  .lb button svg{width:1.2rem;height:1.2rem;}
+  .lb .x{top:1rem;right:1rem;}
+  .lb .prev{left:1rem;top:50%;margin-top:-1.5rem;}
+  .lb .next{right:1rem;top:50%;margin-top:-1.5rem;}
+  .lb .prev svg{transform:rotate(180deg);}
+
+  /* process */
+  .process{display:grid;grid-template-columns:repeat(5,1fr);gap:1.4rem;position:relative;}
+  .process::before{content:"";position:absolute;left:0;right:0;top:1.35rem;height:1px;background:var(--line);transition:background-color var(--fade-theme) ease;}
+  .ps{position:relative;padding-right:.5rem;}
+  .ps .dot{width:2.7rem;height:2.7rem;border-radius:50%;border:1px solid var(--bronze);background:var(--bg);display:flex;align-items:center;justify-content:center;font-family:var(--font-label);font-weight:300;font-size:.9rem;color:var(--bronze);margin-bottom:1.3rem;position:relative;transition:background-color var(--fade) ease,color var(--fade) ease;}
+  .ps:hover .dot{background:var(--bronze);color:var(--on-bronze);}
+  .ps h3{font-size:1.55rem;margin-bottom:.45rem;}
+  .ps p{font-size:.93rem;color:var(--ink-soft);}
+
+  /* contact */
+  .contact{position:relative;overflow:hidden;background:var(--deep);color:#F1ECE6;transition:background-color var(--fade-theme) ease;}
+  .contact .art{--mb:transparent;--mv1:#6E675F;--mv2:#B98258;--mo1:.35;--mo2:.45;--mo3:.25;}
+  .contact .wrap{position:relative;z-index:1;}
+  .contact-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(2.5rem,6vw,5rem);align-items:start;}
+  .contact-grid > *,.studio > *,.head-row > *{min-width:0;}
+  .contact h2{color:#F1ECE6;}
+  .contact h2 em{color:#E2B58F;}
+  .contact .label{color:#E2B58F;}
+  .contact .text{color:rgba(241,236,230,.7);}
+  .c-list{margin:2rem 0;border-top:1px solid rgba(241,236,230,.15);}
+  .c-item{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;padding:1rem 0;border-bottom:1px solid rgba(241,236,230,.15);}
+  .c-item .k{font-family:var(--font-label);font-weight:300;font-size:.78rem;letter-spacing:.26em;text-transform:uppercase;color:#E2B58F;padding-top:.2rem;}
+  .c-item a{font-weight:500;}
+  .c-item a:hover{color:#E2B58F;}
+  .brief{background:rgba(241,236,230,.05);border:1px solid rgba(241,236,230,.14);padding:clamp(1.5rem,3.5vw,2.6rem);display:grid;gap:1.1rem;}
+  .brief h3{color:#F1ECE6;font-size:clamp(1.7rem,2.6vw,2.2rem);}
+  .brief p.small{font-size:.88rem;color:rgba(241,236,230,.65);margin-top:-.4rem;}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+  .row2 > *,.brief > *{min-width:0;}
+  .brief label{display:block;}
+  .fl{display:block;font-family:var(--font-label);font-weight:300;font-size:.76rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(241,236,230,.7);margin-bottom:.45rem;}
+  .fi{width:100%;min-width:0;background:transparent;border:none;border-bottom:1px solid rgba(241,236,230,.3);color:#F1ECE6;padding:.6rem 0;font-size:1rem;border-radius:0;transition:border-color var(--fade) ease;}
+  .fi::placeholder{color:rgba(241,236,230,.38);}
+  .fi:hover,.fi:focus{border-bottom-color:#E2B58F;outline:none;}
+  select.fi{appearance:none;background-image:linear-gradient(45deg,transparent 50%,#E2B58F 50%),linear-gradient(135deg,#E2B58F 50%,transparent 50%);background-position:calc(100% - 10px) 55%,calc(100% - 5px) 55%;background-size:5px 5px;background-repeat:no-repeat;padding-right:1.6rem;}
+  select.fi option{color:#23211F;background:#fff;}
+  textarea.fi{resize:vertical;min-height:80px;}
+  .err{font-size:.84rem;color:#F0A58A;min-height:1.2em;}
+  .brief .btn{justify-self:start;}
+
+  /* footer */
+  footer{background:var(--bg);border-top:1px solid var(--line);transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .footer-main{padding-top:3.2rem;padding-bottom:2rem;}
+  .footer-grid{display:grid;grid-template-columns:auto 1fr auto;gap:2rem;align-items:center;padding-bottom:2rem;border-bottom:1px solid var(--line);transition:border-color var(--fade-theme) ease;}
+  .footer-grid .brand-logo{height:80px;}
+  .footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 2rem;}
+  .footer-nav a{font-family:var(--font-label);font-weight:300;font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);}
+  .footer-nav a:hover{color:var(--bronze);}
+  .social{display:flex;gap:.6rem;}
+  .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-top:1.4rem;font-size:.82rem;color:var(--ink-soft);align-items:center;}
+
+  /* reveal */
+  .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .9s ease,transform .9s ease,background-color var(--fade-theme) ease,border-color var(--fade-theme) ease,color var(--fade-theme) ease,box-shadow .35s ease;}
+  .js .reveal.in{opacity:1;transform:none;}
+  @media (prefers-reduced-motion: reduce){ .js .reveal{opacity:1;transform:none;} }
+
+  /* tablet */
+  @media (max-width:1199px){
+    nav.primary{display:none;}
+    .header-actions,nav.primary + .header-actions{margin-left:auto;}
+    .menu-toggle{display:block;}
+    .header-actions .btn{display:none;}
+    .studio,.contact-grid{grid-template-columns:1fr;}
+    .portrait-frame{max-width:440px;width:100%;margin:0 auto 1rem;}
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-side{flex-direction:row;justify-content:flex-start;position:absolute;right:clamp(1.25rem,4vw,3rem);top:-4.5rem;}
+    .hero-vert{display:none;}
+    /* accordion becomes a vertical list */
+    .acc-wrap{flex-direction:column;height:auto;gap:.6rem;}
+    .acc{flex:none;}
+    .acc-head{flex-direction:row;justify-content:flex-start;align-items:center;gap:1.2rem;height:auto;padding:1.3rem 1.4rem;}
+    .acc-title{writing-mode:horizontal-tb;transform:none;white-space:normal;}
+    .acc.active .acc-title{opacity:1;color:var(--bronze);}
+    .acc.active .acc-num{opacity:1;}
+    .acc-body{position:relative;inset:auto;padding:0 1.4rem 1.6rem;display:none;opacity:1;visibility:visible;pointer-events:auto;}
+    .acc.active .acc-body{display:flex;}
+    .acc-body .acc-n,.acc-body h3{display:none;}
+    .acc .art{opacity:.45;}
+    .process{grid-template-columns:1fr;gap:0;}
+    .process::before{left:1.35rem;right:auto;top:0;bottom:0;width:1px;height:auto;}
+    .ps{display:grid;grid-template-columns:2.7rem 1fr;gap:0 1.2rem;padding-bottom:1.6rem;}
+    .ps .dot{grid-row:span 2;margin:0;}
+    .projects{grid-template-columns:repeat(4,1fr);}
+    .pj.w4,.pj.w3{grid-column:span 2;}
+    .footer-grid{grid-template-columns:1fr;justify-items:center;text-align:center;}
+  }
+  /* mobile */
+  @media (max-width:640px){
+    .header-actions .lang-switch{display:none;}
+    .brand-logo{height:48px;}
+    .nav-row{gap:.75rem;}
+    .hero-ctas .btn{width:100%;}
+    .hero-services{gap:.5rem 1.6rem;}
+    .facts{grid-template-columns:1fr 1fr;row-gap:1rem;}
+    .projects{grid-template-columns:1fr 1fr;grid-auto-rows:150px;}
+    .pj,.pj.w3,.pj.w4{grid-column:span 1;grid-row:span 1;}
+    .pj.wide-m{grid-column:span 2;grid-row:span 2;}
+    .ba{aspect-ratio:4/5;}
+    .row2{grid-template-columns:1fr;}
+    .c-item{grid-template-columns:1fr;gap:.15rem;}
+    .footer-bottom{justify-content:center;text-align:center;}
+    h1,h2,h3{overflow-wrap:break-word;hyphens:auto;}
+    .big-title{font-size:clamp(2rem,9vw,2.6rem);}
+  }
+  @media (max-width:380px){
+    .brand-logo{height:42px;}
+    .btn{letter-spacing:.16em;padding:.9rem 1.2rem;}
+    .brief .btn{width:100%;white-space:normal;text-align:center;}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip">Pāriet uz saturu</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="marble">
+      <rect style="fill:var(--mb)" width="400" height="400"/>
+      <path style="fill:none;stroke:var(--mv1);stroke-width:1.2;opacity:var(--mo1)" d="M-20 60 C60 90 90 40 160 70 S260 160 330 130 S410 180 430 170"/>
+      <path style="fill:none;stroke:var(--mv1);stroke-width:.6;opacity:var(--mo3)" d="M-10 120 C50 140 110 110 150 140 S240 230 300 210"/>
+      <path style="fill:none;stroke:var(--mv2);stroke-width:1.4;opacity:var(--mo2)" d="M40 -20 C70 60 60 120 120 170 S170 290 250 320 S330 420 360 430"/>
+      <path style="fill:none;stroke:var(--mv1);stroke-width:.6;opacity:var(--mo3)" d="M120 170 C150 190 200 180 240 200 M250 320 C300 300 340 310 420 290"/>
+      <path style="fill:none;stroke:var(--mv1);stroke-width:1.2;opacity:var(--mo1)" d="M-20 300 C40 280 90 330 150 310 S230 360 280 420"/>
+      <path style="fill:none;stroke:var(--mv1);stroke-width:.6;opacity:var(--mo3)" d="M300 -10 C290 40 320 80 300 120 S330 200 380 230"/>
+    </g>
+    <g id="ic-phone"><path d="M7 3h3l1.5 4L9.5 8.5c.8 2.3 2.7 4.2 5 5l1.5-2L20 13v3a2 2 0 0 1-2.2 2C11.5 17.6 6.4 12.5 5.9 6.2A2 2 0 0 1 7 3Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></g>
+    <g id="ic-ig"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></g>
+    <g id="ic-wa"><path d="M4 20l1.2-4A8 8 0 1 1 8 18.8Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9.2 8.6c.3-.6.6-.6.9-.6h.5c.2 0 .4.1.5.4l.6 1.5c.1.3 0 .5-.2.7l-.4.5c.5 1 1.3 1.8 2.3 2.3l.5-.4c.2-.2.4-.3.7-.2l1.5.6c.3.1.4.3.4.5v.5c0 .3 0 .6-.6.9-.6.4-1.8.5-3.5-.4a8 8 0 0 1-3-3c-.9-1.7-.8-2.9-.4-3.5Z" fill="currentColor"/></g>
+    <g id="ic-arrow"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="ic-drag"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="ic-x"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-sun"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.1" y1="5.1" x2="6.8" y2="6.8"/><line x1="17.2" y1="17.2" x2="18.9" y2="18.9"/><line x1="5.1" y1="18.9" x2="6.8" y2="17.2"/><line x1="17.2" y1="6.8" x2="18.9" y2="5.1"/></g></g>
+    <g id="ic-moon"><path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></g>
+    <g id="ic-pause"><rect x="6" y="4.5" width="4.5" height="15" rx="1" fill="currentColor"/><rect x="13.5" y="4.5" width="4.5" height="15" rx="1" fill="currentColor"/></g>
+    <g id="ic-play"><path d="M6 4.5v15l14-7.5z" fill="currentColor"/></g>
+  </defs>
+</svg>
+
+<a id="home"></a>
+<header>
+  <div class="wrap nav-row">
+    <a class="brand" href="#home" aria-label="ILSH Design">
+      <img src="logo.svg" alt="ILSH Design" class="brand-logo" width="64" height="56">
+    </a>
+    <nav class="primary" aria-label="Primary">
+      <a href="#studio" data-i18n="nav.studio">Studija</a>
+      <a href="#services" data-i18n="nav.services">Pakalpojumi</a>
+      <a href="#projects" data-i18n="nav.projects">Projekti</a>
+      <a href="#process" data-i18n="nav.process">Process</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakti</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button data-lang="lv" aria-pressed="true">LV</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+        <button data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <button class="icon-btn" id="themeToggle" aria-label="Dark mode" aria-pressed="false">
+        <svg viewBox="0 0 24 24" id="themeIcon"><use href="#ic-moon"/></svg>
+      </button>
+      <a class="btn btn-solid btn-sm" href="#contact"><span data-i18n="cta_start">Sākt projektu</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" aria-hidden="true">
+  <svg class="mv art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg>
+  <a class="m-link" style="--i:0" href="#studio"><small>01</small><span data-i18n="nav.studio">Studija</span></a>
+  <a class="m-link" style="--i:1" href="#services"><small>02</small><span data-i18n="nav.services">Pakalpojumi</span></a>
+  <a class="m-link" style="--i:2" href="#projects"><small>03</small><span data-i18n="nav.projects">Projekti</span></a>
+  <a class="m-link" style="--i:3" href="#process"><small>04</small><span data-i18n="nav.process">Process</span></a>
+  <a class="m-link" style="--i:4" href="#contact"><small>05</small><span data-i18n="nav.contact">Kontakti</span></a>
+  <div class="m-extra" style="--i:5">
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="lv" aria-pressed="true">LV</button>
+      <button data-lang="en" aria-pressed="false">EN</button>
+      <button data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+    <a class="btn btn-solid btn-sm" href="https://wa.me/37129185418" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-wa"/></svg><span>WhatsApp</span></a>
+  </div>
+  <p class="m-contact"><a href="tel:+37129185418">+371 29 185 418</a> &nbsp;|&nbsp; <a href="https://www.instagram.com/ilshdesign/" target="_blank" rel="noopener">@ilshdesign</a></p>
+</nav>
+
+<main id="main">
+
+  <section class="hero">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="https://assets.mixkit.co/videos/4196/4196-thumb-720-0.jpg">
+      <source src="https://assets.mixkit.co/videos/4196/4196-720.mp4" type="video/mp4">
+      <source src="https://assets.mixkit.co/videos/4196/4196-360.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="label" data-i18n="hero_label">Interjera dizaina studija</span>
+          <h1><span data-i18n="hero_t1">Telpas, kurās</span> <em data-i18n="hero_t2">gribas dzīvot</em></h1>
+          <p class="lede" data-i18n="hero_lede">Mēs radām interjerus, kas ir skaisti, ērti un atbilst tieši jums. No pirmās idejas līdz pēdējai detaļai.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-solid" href="#contact"><span data-i18n="cta_start">Sākt projektu</span><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></a>
+            <a class="btn btn-line" href="#projects"><span data-i18n="cta_projects">Skatīt projektus</span></a>
+          </div>
+        </div>
+        <div class="hero-side">
+          <span class="hero-vert">ILSH Design · Interior studio</span>
+          <button class="hero-pause" id="heroPause" aria-label="Pause background video" aria-pressed="false">
+            <svg viewBox="0 0 24 24" id="heroPauseIcon"><use href="#ic-pause"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="hero-services">
+        <span><b>01</b><span data-i18n="sv1">Interjera dizains</span></span>
+        <span><b>02</b><span data-i18n="sv2">Grafiskais dizains</span></span>
+        <span><b>03</b><span data-i18n="sv3">Pasākumu dizains</span></span>
+        <span><b>04</b><span data-i18n="sv4">Ēdiena dizains</span></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="studio">
+    <div class="wrap studio">
+      <div class="portrait-frame reveal">
+        <figure class="portrait" style="margin:0">
+          <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg>
+          <div class="ph-name"><b>Inga Laizāne-Šarova</b><span data-i18n="st_role">Dizainere, studijas dibinātāja</span></div>
+          <img src="img/inga.jpg" alt="Inga Laizāne-Šarova" loading="lazy" onerror="this.remove()">
+        </figure>
+      </div>
+      <div class="reveal">
+        <span class="label"><span class="n">01</span><span data-i18n="nav.studio">Studija</span></span>
+        <h2 class="big-title"><span data-i18n="st_t1">Dizains, kas sākas</span> <em data-i18n="st_t2">ar jums</em></h2>
+        <p class="text" data-i18n="st_p1">ILSH Design ir Ingas Laizānes-Šarovas dizaina studija. Mēs veidojam dzīvokļu, māju un komerctelpu interjerus, kā arī grafisko dizainu, pasākumu un ēdiena noformējumu.</p>
+        <p class="text" data-i18n="st_p2">Katrs projekts sākas ar sarunu. Mēs ieklausāmies, kā jūs dzīvojat un strādājat, un tad radām telpu, kurā viss ir savā vietā: gaisma, materiāli, krāsas un sajūta.</p>
+        <p class="sign"><span data-i18n="st_quote">"Labs interjers nav tikai skaists. Tajā ir viegli dzīvot."</span><small>Inga Laizāne-Šarova</small></p>
+        <div class="facts">
+          <div class="fact"><b>4</b><span data-i18n="f1">dizaina virzieni</span></div>
+          <div class="fact"><b>3D</b><span data-i18n="f2">vizualizācijas</span></div>
+          <div class="fact"><b>1:1</b><span data-i18n="f3">individuāla pieeja</span></div>
+          <div class="fact"><b>LV</b><span data-i18n="f4">projekti visā Latvijā</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="stone">
+    <div class="wrap">
+      <div class="head-row reveal">
+        <div class="left">
+          <span class="label"><span class="n">02</span><span data-i18n="nav.services">Pakalpojumi</span></span>
+          <h2 class="big-title"><span data-i18n="se_t1">Četri virzieni,</span> <em data-i18n="se_t2">viena gaume</em></h2>
+        </div>
+        <p class="right" data-i18n="se_sub">Izvēlieties virzienu, lai uzzinātu vairāk. Var apvienot vairākus vienā projektā.</p>
+      </div>
+      <div class="acc-wrap reveal" id="acc">
+        <article class="acc active">
+          <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg>
+          <button class="acc-head" aria-expanded="true"><span class="acc-num">01</span><span class="acc-title" data-i18n="sv1">Interjera dizains</span></button>
+          <div class="acc-body">
+            <span class="acc-n">01</span>
+            <h3 data-i18n="sv1">Interjera dizains</h3>
+            <p data-i18n="a1_d">Dzīvokļi, privātmājas un komerctelpas. Plānojums, gaismas risinājumi, materiālu un mēbeļu izvēle un 3D vizualizācijas, lai jūs redzētu rezultātu jau pirms remonta.</p>
+            <ul><li data-i18n="a1_1">Plānojums</li><li data-i18n="a1_2">3D vizualizācijas</li><li data-i18n="a1_3">Materiāli un mēbeles</li><li data-i18n="a1_4">Gaismas risinājumi</li></ul>
+          </div>
+        </article>
+        <article class="acc">
+          <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleX(-1)"><use href="#marble"/></svg>
+          <button class="acc-head" aria-expanded="false"><span class="acc-num">02</span><span class="acc-title" data-i18n="sv2">Grafiskais dizains</span></button>
+          <div class="acc-body">
+            <span class="acc-n">02</span>
+            <h3 data-i18n="sv2">Grafiskais dizains</h3>
+            <p data-i18n="a2_d">Logo, vizuālā identitāte un drukas materiāli, kas atbilst jūsu zīmolam un telpai, kurā tas dzīvo.</p>
+            <ul><li data-i18n="a2_1">Logo</li><li data-i18n="a2_2">Vizuālā identitāte</li><li data-i18n="a2_3">Drukas materiāli</li></ul>
+          </div>
+        </article>
+        <article class="acc">
+          <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleY(-1)"><use href="#marble"/></svg>
+          <button class="acc-head" aria-expanded="false"><span class="acc-num">03</span><span class="acc-title" data-i18n="sv3">Pasākumu dizains</span></button>
+          <div class="acc-body">
+            <span class="acc-n">03</span>
+            <h3 data-i18n="sv3">Pasākumu dizains</h3>
+            <p data-i18n="a3_d">Svinību, kāzu un uzņēmumu pasākumu noformējums. Telpas stilizācija, galdu dekors un detaļas, kas paliek atmiņā.</p>
+            <ul><li data-i18n="a3_1">Telpas noformējums</li><li data-i18n="a3_2">Galdu dekors</li><li data-i18n="a3_3">Koncepcija</li></ul>
+          </div>
+        </article>
+        <article class="acc">
+          <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scale(-1,-1)"><use href="#marble"/></svg>
+          <button class="acc-head" aria-expanded="false"><span class="acc-num">04</span><span class="acc-title" data-i18n="sv4">Ēdiena dizains</span></button>
+          <div class="acc-body">
+            <span class="acc-n">04</span>
+            <h3 data-i18n="sv4">Ēdiena dizains</h3>
+            <p data-i18n="a4_d">Ēdiena noformējums un galda stilizācija pasākumiem, banketiem un fotosesijām, lai ēdiens izskatītos tikpat labi, cik garšo.</p>
+            <ul><li data-i18n="a4_1">Galda stilizācija</li><li data-i18n="a4_2">Banketi</li><li data-i18n="a4_3">Fotosesijas</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="before-after">
+    <div class="wrap">
+      <div class="head-row reveal">
+        <div class="left">
+          <span class="label"><span class="n">03</span><span data-i18n="ba_label">Pirms un pēc</span></span>
+          <h2 class="big-title"><span data-i18n="ba_t1">Tā pati telpa,</span> <em data-i18n="ba_t2">cits stāsts</em></h2>
+        </div>
+        <p class="right" data-i18n="ba_sub">Velciet līniju pa labi un pa kreisi, lai redzētu, kā telpa mainās.</p>
+      </div>
+      <div class="ba reveal" id="ba">
+        <div class="ba-layer ba-after">
+          <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="800" height="450" fill="#EEE7DE"/>
+            <polygon points="0,330 800,330 800,450 0,450" fill="#CDB59A"/>
+            <g stroke="#BFA586" stroke-width="2"><line x1="0" y1="370" x2="800" y2="370"/><line x1="0" y1="410" x2="800" y2="410"/></g>
+            <rect x="40" y="40" width="150" height="290" fill="#9C6B45"/>
+            <g stroke="#875A38" stroke-width="2"><line x1="90" y1="40" x2="90" y2="330"/><line x1="140" y1="40" x2="140" y2="330"/></g>
+            <rect x="0" y="22" width="800" height="5" fill="#FFE9C9"/>
+            <rect x="560" y="70" width="190" height="260" fill="#E6DED3"/>
+            <path d="M560 120 C610 150 640 110 690 160 S740 230 750 250 M600 70 C620 140 590 200 640 260 S700 320 720 330" fill="none" stroke="#A8754F" stroke-width="2" opacity=".7"/>
+            <path d="M560 200 C600 210 640 190 700 220" fill="none" stroke="#9A938A" stroke-width="1.2" opacity=".6"/>
+            <line x1="380" y1="0" x2="380" y2="110" stroke="#A8754F" stroke-width="2"/>
+            <path d="M330 140 A50 30 0 0 1 430 140 Z" fill="#A8754F"/>
+            <ellipse cx="380" cy="142" rx="34" ry="5" fill="#FFE9C9"/>
+            <rect x="240" y="250" width="290" height="70" rx="28" fill="#E8E0D5"/>
+            <rect x="225" y="225" width="70" height="95" rx="30" fill="#DDD3C6"/>
+            <rect x="475" y="225" width="70" height="95" rx="30" fill="#DDD3C6"/>
+            <rect x="285" y="215" width="200" height="60" rx="26" fill="#EFE8DE"/>
+            <ellipse cx="385" cy="372" rx="80" ry="14" fill="#F3EEE7"/>
+            <rect x="330" y="340" width="110" height="30" rx="14" fill="#7E7369"/>
+            <rect x="640" y="285" width="40" height="45" rx="8" fill="#2F2B27"/>
+            <path d="M660 285 C640 240 610 230 600 200 M660 285 C665 230 690 210 700 180 M660 285 C680 250 720 245 735 230" fill="none" stroke="#6C7C5C" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+          <img src="img/after.jpg" alt="" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="ba-layer ba-before">
+          <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="800" height="450" fill="#D3CEC6"/>
+            <polygon points="0,330 800,330 800,450 0,450" fill="#B08A5F"/>
+            <g stroke="#9C7750" stroke-width="2"><line x1="0" y1="360" x2="800" y2="360"/><line x1="0" y1="390" x2="800" y2="390"/><line x1="0" y1="420" x2="800" y2="420"/><line x1="120" y1="330" x2="100" y2="450"/><line x1="320" y1="330" x2="310" y2="450"/><line x1="520" y1="330" x2="530" y2="450"/><line x1="700" y1="330" x2="720" y2="450"/></g>
+            <rect x="60" y="80" width="120" height="250" fill="#E3DBCF" stroke="#BDB3A6" stroke-width="6"/>
+            <circle cx="160" cy="210" r="5" fill="#9A8F82"/>
+            <rect x="600" y="80" width="110" height="250" fill="#E3DBCF" stroke="#BDB3A6" stroke-width="6"/>
+            <line x1="380" y1="0" x2="380" y2="80" stroke="#6E665D" stroke-width="2"/>
+            <circle cx="380" cy="90" r="11" fill="#F4EBD3"/>
+            <rect x="300" y="270" width="160" height="50" fill="#EAE4DA" stroke="#BDB3A6" stroke-width="3"/>
+            <g stroke="#BDB3A6" stroke-width="3"><line x1="320" y1="270" x2="320" y2="320"/><line x1="340" y1="270" x2="340" y2="320"/><line x1="360" y1="270" x2="360" y2="320"/><line x1="380" y1="270" x2="380" y2="320"/><line x1="400" y1="270" x2="400" y2="320"/><line x1="420" y1="270" x2="420" y2="320"/><line x1="440" y1="270" x2="440" y2="320"/></g>
+            <path d="M0 230 H800" stroke="#C7C0B6" stroke-width="2"/>
+            <rect x="230" y="150" width="40" height="30" fill="none" stroke="#B6ADA1" stroke-width="2"/>
+          </svg>
+          <img src="img/before.jpg" alt="" loading="lazy" onerror="this.remove()">
+        </div>
+        <span class="ba-tag l" data-i18n="ba_before">Pirms</span>
+        <span class="ba-tag r" data-i18n="ba_after">Pēc</span>
+        <span class="ba-line"></span>
+        <input type="range" min="0" max="100" value="50" id="baRange" aria-label="Before / after">
+        <span class="ba-knob"><svg viewBox="0 0 24 24"><use href="#ic-drag"/></svg></span>
+      </div>
+      <p class="ba-note reveal"><svg viewBox="0 0 24 24"><use href="#ic-drag"/></svg><span data-i18n="ba_note">Interjera pārvērtības piemērs</span></p>
+    </div>
+  </section>
+
+  <section id="projects" class="stone">
+    <div class="wrap">
+      <div class="head-row reveal">
+        <div class="left">
+          <span class="label"><span class="n">04</span><span data-i18n="nav.projects">Projekti</span></span>
+          <h2 class="big-title"><span data-i18n="pj_t1">Mūsu</span> <em data-i18n="pj_t2">darbi</em></h2>
+        </div>
+        <p class="right" data-i18n="pj_sub">Vannas istabas, virtuves, dzīvojamās telpas un gaiteņi. Jaunākos projektus skatiet mūsu Instagram.</p>
+      </div>
+      <div class="projects reveal" id="projectsGrid">
+        <figure class="pj w3 t3 wide-m"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg><img src="img/img1.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>01</figcaption></figure>
+        <figure class="pj w3"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleX(-1)"><use href="#marble"/></svg><img src="img/img2.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>02</figcaption></figure>
+        <figure class="pj w3"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleY(-1)"><use href="#marble"/></svg><img src="img/img3.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>03</figcaption></figure>
+        <figure class="pj"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scale(-1,-1)"><use href="#marble"/></svg><img src="img/img4.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>04</figcaption></figure>
+        <figure class="pj w4 wide-m"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg><img src="img/img5.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>05</figcaption></figure>
+        <figure class="pj w4"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleX(-1)"><use href="#marble"/></svg><img src="img/img6.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>06</figcaption></figure>
+        <figure class="pj"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scaleY(-1)"><use href="#marble"/></svg><img src="img/img7.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>07</figcaption></figure>
+        <figure class="pj w3"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="transform:scale(-1,-1)"><use href="#marble"/></svg><img src="img/img8.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>08</figcaption></figure>
+        <figure class="pj w3"><svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg><img src="img/img9.jpg" alt="" loading="lazy" onerror="this.remove()"><figcaption>09</figcaption></figure>
+      </div>
+      <div class="pj-cta reveal">
+        <a class="btn btn-line" href="https://www.instagram.com/ilshdesign/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-ig"/></svg><span>@ilshdesign</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="head-row reveal">
+        <div class="left">
+          <span class="label"><span class="n">05</span><span data-i18n="nav.process">Process</span></span>
+          <h2 class="big-title"><span data-i18n="pr_t1">Kā mēs</span> <em data-i18n="pr_t2">strādājam</em></h2>
+        </div>
+        <p class="right" data-i18n="pr_sub">Skaidri soļi, lai jūs vienmēr zinātu, kas notiek ar jūsu projektu.</p>
+      </div>
+      <div class="process">
+        <div class="ps reveal"><span class="dot">01</span><h3 data-i18n="p1_t">Iepazīšanās</h3><p data-i18n="p1_d">Tiekamies, apskatām telpu un pārrunājam jūsu vēlmes, ieradumus un budžetu.</p></div>
+        <div class="ps reveal"><span class="dot">02</span><h3 data-i18n="p2_t">Koncepcija</h3><p data-i18n="p2_d">Plānojuma varianti un noskaņa: krāsas, materiāli, stils.</p></div>
+        <div class="ps reveal"><span class="dot">03</span><h3 data-i18n="p3_t">Vizualizācijas</h3><p data-i18n="p3_d">3D attēli, lai jūs redzētu telpu pirms remonta sākuma.</p></div>
+        <div class="ps reveal"><span class="dot">04</span><h3 data-i18n="p4_t">Projekts</h3><p data-i18n="p4_d">Rasējumi, materiālu un mēbeļu saraksts, ar ko var strādāt būvnieki.</p></div>
+        <div class="ps reveal"><span class="dot">05</span><h3 data-i18n="p5_t">Realizācija</h3><p data-i18n="p5_d">Palīdzam līdz galam, lai rezultāts atbilstu idejai.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact on-dark">
+    <svg class="art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#marble"/></svg>
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="label"><span class="n" style="color:rgba(241,236,230,.5)">06</span><span data-i18n="nav.contact">Kontakti</span></span>
+        <h2 class="big-title"><span data-i18n="co_t1">Pastāstiet par</span> <em data-i18n="co_t2">savu telpu</em></h2>
+        <p class="text" data-i18n="co_p">Rakstiet WhatsApp vai Instagram. Atbildēsim, pārrunāsim jūsu ideju un ieteiksim, ar ko sākt.</p>
+        <div class="c-list">
+          <div class="c-item"><span class="k">WhatsApp</span><span><a href="https://wa.me/37129185418" target="_blank" rel="noopener">+371 29 185 418</a></span></div>
+          <div class="c-item"><span class="k">Instagram</span><span><a href="https://www.instagram.com/ilshdesign/" target="_blank" rel="noopener">@ilshdesign</a></span></div>
+          <div class="c-item"><span class="k" data-i18n="lbl_designer">Dizainere</span><span>Inga Laizāne-Šarova</span></div>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn btn-solid" href="https://wa.me/37129185418" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-wa"/></svg><span>WhatsApp</span></a>
+          <a class="btn btn-line" href="tel:+37129185418"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_call">Zvanīt</span></a>
+        </div>
+      </div>
+      <form class="brief reveal" id="brief" novalidate>
+        <h3 data-i18n="br_t">Projekta pieteikums</h3>
+        <p class="small" data-i18n="br_p">Aizpildiet, un ziņa atvērsies WhatsApp, gatava sūtīšanai.</p>
+        <label><span class="fl" data-i18n="br_name">Vārds</span><input class="fi" id="bName" type="text" autocomplete="name" maxlength="60" data-i18n-ph="ph_name" placeholder="Jūsu vārds"></label>
+        <div class="row2">
+          <label><span class="fl" data-i18n="br_type">Pakalpojums</span>
+            <select class="fi" id="bType">
+              <option value="1" data-i18n="sv1">Interjera dizains</option>
+              <option value="2" data-i18n="sv2">Grafiskais dizains</option>
+              <option value="3" data-i18n="sv3">Pasākumu dizains</option>
+              <option value="4" data-i18n="sv4">Ēdiena dizains</option>
+            </select>
+          </label>
+          <label><span class="fl" data-i18n="br_obj">Objekts</span>
+            <select class="fi" id="bObj">
+              <option value="flat" data-i18n="o_flat">Dzīvoklis</option>
+              <option value="house" data-i18n="o_house">Privātmāja</option>
+              <option value="com" data-i18n="o_com">Komerctelpa</option>
+              <option value="event" data-i18n="o_event">Pasākums</option>
+              <option value="other" data-i18n="o_other">Cits</option>
+            </select>
+          </label>
+        </div>
+        <div class="row2">
+          <label><span class="fl" data-i18n="br_area">Platība, m²</span><input class="fi" id="bArea" type="number" min="1" max="10000" inputmode="numeric" placeholder="80"></label>
+          <label><span class="fl" data-i18n="br_city">Pilsēta</span><input class="fi" id="bCity" type="text" maxlength="40" data-i18n-ph="ph_city" placeholder="Rīga"></label>
+        </div>
+        <label><span class="fl" data-i18n="br_msg">Par projektu</span><textarea class="fi" id="bMsg" maxlength="500" data-i18n-ph="ph_msg" placeholder="Kas jums ir svarīgi? Stils, termiņi, budžets..."></textarea></label>
+        <span class="err" id="bErr" role="status"></span>
+        <button class="btn btn-solid" type="submit"><svg viewBox="0 0 24 24"><use href="#ic-wa"/></svg><span data-i18n="br_send">Sūtīt WhatsApp</span></button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-main">
+    <div class="footer-grid">
+      <a class="brand" href="#home" aria-label="ILSH Design"><img src="logo.svg" alt="ILSH Design" class="brand-logo" width="92" height="80"></a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#studio" data-i18n="nav.studio">Studija</a>
+        <a href="#services" data-i18n="nav.services">Pakalpojumi</a>
+        <a href="#projects" data-i18n="nav.projects">Projekti</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakti</a>
+      </nav>
+      <div class="social">
+        <a class="icon-btn" href="https://www.instagram.com/ilshdesign/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><use href="#ic-ig"/></svg></a>
+        <a class="icon-btn" href="https://wa.me/37129185418" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><use href="#ic-wa"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="yr">2026</span> ILSH Design. <span data-i18n="footer_rights">Visas tiesības aizsargātas.</span></span>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button data-lang="lv" aria-pressed="true">LV</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+        <button data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-hidden="true">
+  <img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+  <button class="x" id="lbX" aria-label="Close"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+  <button class="prev" id="lbPrev" aria-label="Previous"><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></button>
+  <button class="next" id="lbNext" aria-label="Next"><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></button>
+</div>
+
+<script>
+(function(){
+  var T = {
+    lv: {
+      skip:"Pāriet uz saturu",
+      "nav.studio":"Studija","nav.services":"Pakalpojumi","nav.projects":"Projekti","nav.process":"Process","nav.contact":"Kontakti",
+      cta_start:"Sākt projektu", cta_projects:"Skatīt projektus", cta_call:"Zvanīt",
+      theme_dark:"Tumšais režīms", theme_light:"Gaišais režīms", menu_open:"Atvērt izvēlni", menu_close:"Aizvērt izvēlni",
+      video_pause:"Apturēt fona video", video_play:"Atskaņot fona video",
+      hero_label:"Interjera dizaina studija", hero_t1:"Telpas, kurās", hero_t2:"gribas dzīvot",
+      hero_lede:"Mēs radām interjerus, kas ir skaisti, ērti un atbilst tieši jums. No pirmās idejas līdz pēdējai detaļai.",
+      sv1:"Interjera dizains", sv2:"Grafiskais dizains", sv3:"Pasākumu dizains", sv4:"Ēdiena dizains",
+      st_role:"Dizainere, studijas dibinātāja", st_t1:"Dizains, kas sākas", st_t2:"ar jums",
+      st_p1:"ILSH Design ir Ingas Laizānes-Šarovas dizaina studija. Mēs veidojam dzīvokļu, māju un komerctelpu interjerus, kā arī grafisko dizainu, pasākumu un ēdiena noformējumu.",
+      st_p2:"Katrs projekts sākas ar sarunu. Mēs ieklausāmies, kā jūs dzīvojat un strādājat, un tad radām telpu, kurā viss ir savā vietā: gaisma, materiāli, krāsas un sajūta.",
+      st_quote:"„Labs interjers nav tikai skaists. Tajā ir viegli dzīvot.”",
+      f1:"dizaina virzieni", f2:"vizualizācijas", f3:"individuāla pieeja", f4:"projekti visā Latvijā",
+      se_t1:"Četri virzieni,", se_t2:"viena gaume", se_sub:"Izvēlieties virzienu, lai uzzinātu vairāk. Var apvienot vairākus vienā projektā.",
+      a1_d:"Dzīvokļi, privātmājas un komerctelpas. Plānojums, gaismas risinājumi, materiālu un mēbeļu izvēle un 3D vizualizācijas, lai jūs redzētu rezultātu jau pirms remonta.",
+      a1_1:"Plānojums", a1_2:"3D vizualizācijas", a1_3:"Materiāli un mēbeles", a1_4:"Gaismas risinājumi",
+      a2_d:"Logo, vizuālā identitāte un drukas materiāli, kas atbilst jūsu zīmolam un telpai, kurā tas dzīvo.",
+      a2_1:"Logo", a2_2:"Vizuālā identitāte", a2_3:"Drukas materiāli",
+      a3_d:"Svinību, kāzu un uzņēmumu pasākumu noformējums. Telpas stilizācija, galdu dekors un detaļas, kas paliek atmiņā.",
+      a3_1:"Telpas noformējums", a3_2:"Galdu dekors", a3_3:"Koncepcija",
+      a4_d:"Ēdiena noformējums un galda stilizācija pasākumiem, banketiem un fotosesijām, lai ēdiens izskatītos tikpat labi, cik garšo.",
+      a4_1:"Galda stilizācija", a4_2:"Banketi", a4_3:"Fotosesijas",
+      ba_label:"Pirms un pēc", ba_t1:"Tā pati telpa,", ba_t2:"cits stāsts", ba_sub:"Velciet līniju pa labi un pa kreisi, lai redzētu, kā telpa mainās.",
+      ba_before:"Pirms", ba_after:"Pēc", ba_note:"Interjera pārvērtības piemērs", ba_aria:"Pirms un pēc salīdzinājums",
+      pj_t1:"Mūsu", pj_t2:"darbi", pj_sub:"Vannas istabas, virtuves, dzīvojamās telpas un gaiteņi. Jaunākos projektus skatiet mūsu Instagram.", pj_alt:"ILSH Design projekts",
+      pr_t1:"Kā mēs", pr_t2:"strādājam", pr_sub:"Skaidri soļi, lai jūs vienmēr zinātu, kas notiek ar jūsu projektu.",
+      p1_t:"Iepazīšanās", p1_d:"Tiekamies, apskatām telpu un pārrunājam jūsu vēlmes, ieradumus un budžetu.",
+      p2_t:"Koncepcija", p2_d:"Plānojuma varianti un noskaņa: krāsas, materiāli, stils.",
+      p3_t:"Vizualizācijas", p3_d:"3D attēli, lai jūs redzētu telpu pirms remonta sākuma.",
+      p4_t:"Projekts", p4_d:"Rasējumi, materiālu un mēbeļu saraksts, ar ko var strādāt būvnieki.",
+      p5_t:"Realizācija", p5_d:"Palīdzam līdz galam, lai rezultāts atbilstu idejai.",
+      co_t1:"Pastāstiet par", co_t2:"savu telpu", co_p:"Rakstiet WhatsApp vai Instagram. Atbildēsim, pārrunāsim jūsu ideju un ieteiksim, ar ko sākt.",
+      lbl_designer:"Dizainere",
+      br_t:"Projekta pieteikums", br_p:"Aizpildiet, un ziņa atvērsies WhatsApp, gatava sūtīšanai.",
+      br_name:"Vārds", br_type:"Pakalpojums", br_obj:"Objekts", br_area:"Platība, m²", br_city:"Pilsēta", br_msg:"Par projektu", br_send:"Sūtīt WhatsApp",
+      ph_name:"Jūsu vārds", ph_city:"Rīga", ph_msg:"Kas jums ir svarīgi? Stils, termiņi, budžets...",
+      o_flat:"Dzīvoklis", o_house:"Privātmāja", o_com:"Komerctelpa", o_event:"Pasākums", o_other:"Cits",
+      err_name:"Lūdzu, ierakstiet savu vārdu.",
+      m_hi:"Labdien! Vēlos pieteikt projektu.", m_name:"Vārds", m_type:"Pakalpojums", m_obj:"Objekts", m_area:"Platība", m_city:"Pilsēta", m_msg:"Par projektu",
+      footer_rights:"Visas tiesības aizsargātas.",
+      page_title:"ILSH Design - interjera dizaina studija"
+    },
+    en: {
+      skip:"Skip to content",
+      "nav.studio":"Studio","nav.services":"Services","nav.projects":"Projects","nav.process":"Process","nav.contact":"Contact",
+      cta_start:"Start a project", cta_projects:"See projects", cta_call:"Call",
+      theme_dark:"Dark mode", theme_light:"Light mode", menu_open:"Open menu", menu_close:"Close menu",
+      video_pause:"Pause background video", video_play:"Play background video",
+      hero_label:"Interior design studio", hero_t1:"Spaces you'll", hero_t2:"love living in",
+      hero_lede:"We create interiors that are beautiful, comfortable and made just for you. From the first idea to the last detail.",
+      sv1:"Interior design", sv2:"Graphic design", sv3:"Event design", sv4:"Food design",
+      st_role:"Designer, studio founder", st_t1:"Design that starts", st_t2:"with you",
+      st_p1:"ILSH Design is the design studio of Inga Laizāne-Šarova. We design interiors for apartments, houses and commercial spaces, and also do graphic design, event design and food styling.",
+      st_p2:"Every project starts with a conversation. We listen to how you live and work, then create a space where everything has its place: light, materials, colours and feeling.",
+      st_quote:"“A good interior isn't just beautiful. It's easy to live in.”",
+      f1:"design directions", f2:"visualisations", f3:"personal approach", f4:"projects across Latvia",
+      se_t1:"Four directions,", se_t2:"one taste", se_sub:"Pick a direction to learn more. Several can be combined in one project.",
+      a1_d:"Apartments, private houses and commercial spaces. Layout, lighting, choice of materials and furniture, and 3D visualisations so you can see the result before the renovation starts.",
+      a1_1:"Layout", a1_2:"3D visualisations", a1_3:"Materials and furniture", a1_4:"Lighting",
+      a2_d:"Logos, visual identity and print materials that fit your brand and the space it lives in.",
+      a2_1:"Logo", a2_2:"Visual identity", a2_3:"Print materials",
+      a3_d:"Decor for parties, weddings and company events. Space styling, table decor and the details people remember.",
+      a3_1:"Space styling", a3_2:"Table decor", a3_3:"Concept",
+      a4_d:"Food presentation and table styling for events, banquets and photo shoots, so the food looks as good as it tastes.",
+      a4_1:"Table styling", a4_2:"Banquets", a4_3:"Photo shoots",
+      ba_label:"Before and after", ba_t1:"Same room,", ba_t2:"different story", ba_sub:"Drag the line left and right to see how the room changes.",
+      ba_before:"Before", ba_after:"After", ba_note:"An example of an interior makeover", ba_aria:"Before and after comparison",
+      pj_t1:"Our", pj_t2:"work", pj_sub:"Bathrooms, kitchens, living spaces and hallways. See our latest projects on Instagram.", pj_alt:"ILSH Design project",
+      pr_t1:"How we", pr_t2:"work", pr_sub:"Clear steps, so you always know what's happening with your project.",
+      p1_t:"Getting to know you", p1_d:"We meet, look at the space and talk about your wishes, habits and budget.",
+      p2_t:"Concept", p2_d:"Layout options and the mood: colours, materials, style.",
+      p3_t:"Visualisations", p3_d:"3D images so you can see the room before the renovation starts.",
+      p4_t:"Project", p4_d:"Drawings and a list of materials and furniture that builders can work from.",
+      p5_t:"Realisation", p5_d:"We help until the end, so the result matches the idea.",
+      co_t1:"Tell us about", co_t2:"your space", co_p:"Message us on WhatsApp or Instagram. We'll reply, talk through your idea and suggest where to start.",
+      lbl_designer:"Designer",
+      br_t:"Project enquiry", br_p:"Fill this in and the message opens in WhatsApp, ready to send.",
+      br_name:"Name", br_type:"Service", br_obj:"Property", br_area:"Area, m²", br_city:"City", br_msg:"About the project", br_send:"Send on WhatsApp",
+      ph_name:"Your name", ph_city:"Riga", ph_msg:"What matters to you? Style, timing, budget...",
+      o_flat:"Apartment", o_house:"House", o_com:"Commercial space", o_event:"Event", o_other:"Other",
+      err_name:"Please enter your name.",
+      m_hi:"Hello! I'd like to discuss a project.", m_name:"Name", m_type:"Service", m_obj:"Property", m_area:"Area", m_city:"City", m_msg:"About the project",
+      footer_rights:"All rights reserved.",
+      page_title:"ILSH Design - interior design studio"
+    },
+    ru: {
+      skip:"К содержанию",
+      "nav.studio":"Студия","nav.services":"Услуги","nav.projects":"Проекты","nav.process":"Процесс","nav.contact":"Контакты",
+      cta_start:"Начать проект", cta_projects:"Смотреть проекты", cta_call:"Позвонить",
+      theme_dark:"Тёмная тема", theme_light:"Светлая тема", menu_open:"Открыть меню", menu_close:"Закрыть меню",
+      video_pause:"Остановить фоновое видео", video_play:"Воспроизвести фоновое видео",
+      hero_label:"Студия дизайна интерьера", hero_t1:"Пространства, в которых", hero_t2:"хочется жить",
+      hero_lede:"Мы создаём интерьеры, которые красивы, удобны и подходят именно вам. От первой идеи до последней детали.",
+      sv1:"Дизайн интерьера", sv2:"Графический дизайн", sv3:"Дизайн мероприятий", sv4:"Фуд-дизайн",
+      st_role:"Дизайнер, основатель студии", st_t1:"Дизайн, который начинается", st_t2:"с вас",
+      st_p1:"ILSH Design - студия дизайна Инги Лайзане-Шаровой. Мы создаём интерьеры квартир, домов и коммерческих помещений, а также занимаемся графическим дизайном, оформлением мероприятий и фуд-дизайном.",
+      st_p2:"Каждый проект начинается с разговора. Мы слушаем, как вы живёте и работаете, и создаём пространство, где всё на своём месте: свет, материалы, цвета и ощущение.",
+      st_quote:"«Хороший интерьер не просто красив. В нём легко жить.»",
+      f1:"направления дизайна", f2:"визуализации", f3:"индивидуальный подход", f4:"проекты по всей Латвии",
+      se_t1:"Четыре направления,", se_t2:"один вкус", se_sub:"Выберите направление, чтобы узнать больше. Несколько можно объединить в одном проекте.",
+      a1_d:"Квартиры, частные дома и коммерческие помещения. Планировка, свет, подбор материалов и мебели и 3D-визуализации, чтобы вы увидели результат ещё до ремонта.",
+      a1_1:"Планировка", a1_2:"3D-визуализации", a1_3:"Материалы и мебель", a1_4:"Освещение",
+      a2_d:"Логотип, фирменный стиль и печатные материалы, которые подходят вашему бренду и пространству, где он живёт.",
+      a2_1:"Логотип", a2_2:"Фирменный стиль", a2_3:"Печатные материалы",
+      a3_d:"Оформление праздников, свадеб и корпоративов. Стилизация пространства, декор столов и детали, которые запоминаются.",
+      a3_1:"Оформление пространства", a3_2:"Декор столов", a3_3:"Концепция",
+      a4_d:"Оформление блюд и сервировка для мероприятий, банкетов и фотосессий, чтобы еда выглядела так же хорошо, как на вкус.",
+      a4_1:"Сервировка", a4_2:"Банкеты", a4_3:"Фотосессии",
+      ba_label:"До и после", ba_t1:"Та же комната,", ba_t2:"другая история", ba_sub:"Двигайте линию вправо и влево, чтобы увидеть, как меняется комната.",
+      ba_before:"До", ba_after:"После", ba_note:"Пример преображения интерьера", ba_aria:"Сравнение до и после",
+      pj_t1:"Наши", pj_t2:"работы", pj_sub:"Ванные комнаты, кухни, жилые пространства и прихожие. Свежие проекты смотрите в нашем Instagram.", pj_alt:"Проект ILSH Design",
+      pr_t1:"Как мы", pr_t2:"работаем", pr_sub:"Понятные шаги, чтобы вы всегда знали, что происходит с вашим проектом.",
+      p1_t:"Знакомство", p1_d:"Встречаемся, смотрим помещение и обсуждаем ваши пожелания, привычки и бюджет.",
+      p2_t:"Концепция", p2_d:"Варианты планировки и настроение: цвета, материалы, стиль.",
+      p3_t:"Визуализации", p3_d:"3D-изображения, чтобы вы увидели комнату ещё до начала ремонта.",
+      p4_t:"Проект", p4_d:"Чертежи и список материалов и мебели, по которым могут работать строители.",
+      p5_t:"Реализация", p5_d:"Помогаем до конца, чтобы результат совпал с идеей.",
+      co_t1:"Расскажите о", co_t2:"своём пространстве", co_p:"Пишите в WhatsApp или Instagram. Ответим, обсудим вашу идею и подскажем, с чего начать.",
+      lbl_designer:"Дизайнер",
+      br_t:"Заявка на проект", br_p:"Заполните, и сообщение откроется в WhatsApp, готовое к отправке.",
+      br_name:"Имя", br_type:"Услуга", br_obj:"Объект", br_area:"Площадь, м²", br_city:"Город", br_msg:"О проекте", br_send:"Отправить в WhatsApp",
+      ph_name:"Ваше имя", ph_city:"Рига", ph_msg:"Что для вас важно? Стиль, сроки, бюджет...",
+      o_flat:"Квартира", o_house:"Частный дом", o_com:"Коммерческое помещение", o_event:"Мероприятие", o_other:"Другое",
+      err_name:"Пожалуйста, укажите имя.",
+      m_hi:"Здравствуйте! Хочу обсудить проект.", m_name:"Имя", m_type:"Услуга", m_obj:"Объект", m_area:"Площадь", m_city:"Город", m_msg:"О проекте",
+      footer_rights:"Все права защищены.",
+      page_title:"ILSH Design - студия дизайна интерьера"
+    }
+  };
+
+  var htmlEl = document.documentElement;
+  var currentLang = 'lv';
+  var pageTitleEl = document.getElementById('pageTitle');
+  function getTheme(){ return htmlEl.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'; }
+
+  function refreshLabels(){
+    var d = T[currentLang];
+    var theme = getTheme();
+    var tt = document.getElementById('themeToggle');
+    tt.setAttribute('aria-label', theme === 'dark' ? d.theme_light : d.theme_dark);
+    tt.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    document.getElementById('themeIcon').innerHTML = '<use href="' + (theme === 'dark' ? '#ic-sun' : '#ic-moon') + '"></use>';
+    var mt = document.getElementById('menuToggle');
+    mt.setAttribute('aria-label', mt.getAttribute('aria-expanded') === 'true' ? d.menu_close : d.menu_open);
+    var vid = document.getElementById('heroVideo');
+    document.getElementById('heroPause').setAttribute('aria-label', vid.paused ? d.video_play : d.video_pause);
+    document.getElementById('baRange').setAttribute('aria-label', d.ba_aria);
+  }
+
+  function applyLang(lang){
+    if(!T[lang]) lang = 'lv';
+    currentLang = lang;
+    var d = T[lang];
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k = el.getAttribute('data-i18n');
+      if(d[k] !== undefined) el.textContent = d[k];
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(function(el){
+      var k = el.getAttribute('data-i18n-ph');
+      if(d[k] !== undefined) el.setAttribute('placeholder', d[k]);
+    });
+    document.querySelectorAll('.pj img').forEach(function(img){ img.setAttribute('alt', d.pj_alt); });
+    document.querySelectorAll('[data-lang]').forEach(function(b){
+      b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false');
+    });
+    htmlEl.setAttribute('lang', lang);
+    if(pageTitleEl) pageTitleEl.textContent = d.page_title;
+    document.getElementById('bErr').textContent = '';
+    try{ localStorage.setItem('ilsh-lang', lang); }catch(e){}
+    refreshLabels();
+  }
+  document.querySelectorAll('[data-lang]').forEach(function(b){
+    b.addEventListener('click', function(){ applyLang(b.getAttribute('data-lang')); });
+  });
+
+  document.getElementById('themeToggle').addEventListener('click', function(){
+    var next = getTheme() === 'dark' ? 'light' : 'dark';
+    htmlEl.setAttribute('data-theme', next);
+    try{ localStorage.setItem('ilsh-theme', next); }catch(e){}
+    refreshLabels();
+  });
+
+  /* mobile menu */
+  var menuToggle = document.getElementById('menuToggle');
+  var mobileNav = document.getElementById('mobileNav');
+  function setMenu(open){
+    mobileNav.classList.toggle('open', open);
+    mobileNav.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+    refreshLabels();
+  }
+  menuToggle.addEventListener('click', function(){ setMenu(!mobileNav.classList.contains('open')); });
+  mobileNav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
+  window.addEventListener('resize', function(){ if(window.innerWidth >= 1200 && mobileNav.classList.contains('open')) setMenu(false); });
+
+  /* services accordion */
+  var accs = Array.prototype.slice.call(document.querySelectorAll('.acc'));
+  var canHover = window.matchMedia && window.matchMedia('(hover:hover) and (min-width:1200px)');
+  function openAcc(i){
+    accs.forEach(function(a, j){
+      a.classList.toggle('active', j === i);
+      a.querySelector('.acc-head').setAttribute('aria-expanded', j === i ? 'true' : 'false');
+    });
+  }
+  accs.forEach(function(a, i){
+    a.querySelector('.acc-head').addEventListener('click', function(){ openAcc(i); });
+    a.addEventListener('mouseenter', function(){ if(canHover && canHover.matches) openAcc(i); });
+  });
+
+  /* before / after */
+  var ba = document.getElementById('ba');
+  var baRange = document.getElementById('baRange');
+  function setBA(){ ba.style.setProperty('--pos', baRange.value + '%'); }
+  baRange.addEventListener('input', setBA);
+  setBA();
+
+  /* project tiles: only tiles whose photo loaded open the lightbox */
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg');
+  var lbList = [], lbIdx = 0, lastFocus = null;
+  function collect(){ lbList = Array.prototype.slice.call(document.querySelectorAll('.pj img')).filter(function(im){ return im.complete && im.naturalWidth > 0; }); }
+  document.querySelectorAll('.pj img').forEach(function(im){
+    function mark(){ if(im.naturalWidth > 0){ im.parentNode.classList.add('has-img'); im.parentNode.setAttribute('tabindex','0'); } }
+    if(im.complete) mark(); else im.addEventListener('load', mark);
+  });
+  function showLb(i){ collect(); if(!lbList.length) return; lbIdx = (i + lbList.length) % lbList.length; lbImg.src = lbList[lbIdx].src; lbImg.alt = lbList[lbIdx].alt; }
+  function openLb(img){ collect(); var i = lbList.indexOf(img); if(i < 0) return; lastFocus = document.activeElement; showLb(i); lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow = 'hidden'; document.getElementById('lbX').focus(); }
+  function closeLb(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; if(lastFocus) lastFocus.focus(); }
+  document.getElementById('projectsGrid').addEventListener('click', function(e){
+    var fig = e.target.closest('.pj'); if(!fig || !fig.classList.contains('has-img')) return;
+    openLb(fig.querySelector('img'));
+  });
+  document.getElementById('projectsGrid').addEventListener('keydown', function(e){
+    if(e.key !== 'Enter' && e.key !== ' ') return;
+    var fig = e.target.closest('.pj'); if(!fig || !fig.classList.contains('has-img')) return;
+    e.preventDefault(); openLb(fig.querySelector('img'));
+  });
+  document.getElementById('lbX').addEventListener('click', closeLb);
+  document.getElementById('lbPrev').addEventListener('click', function(){ showLb(lbIdx - 1); });
+  document.getElementById('lbNext').addEventListener('click', function(){ showLb(lbIdx + 1); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function(e){
+    if(lb.classList.contains('open')){
+      if(e.key === 'Escape') closeLb();
+      if(e.key === 'ArrowLeft') showLb(lbIdx - 1);
+      if(e.key === 'ArrowRight') showLb(lbIdx + 1);
+      return;
+    }
+    if(e.key === 'Escape' && mobileNav.classList.contains('open')) setMenu(false);
+  });
+
+  /* project brief -> WhatsApp */
+  document.getElementById('brief').addEventListener('submit', function(e){
+    e.preventDefault();
+    var d = T[currentLang];
+    var name = document.getElementById('bName').value.trim();
+    var err = document.getElementById('bErr');
+    if(!name){ err.textContent = d.err_name; document.getElementById('bName').focus(); return; }
+    err.textContent = '';
+    function sel(id){ var s = document.getElementById(id); return s.options[s.selectedIndex].text; }
+    var area = document.getElementById('bArea').value.trim();
+    var city = document.getElementById('bCity').value.trim();
+    var msg = document.getElementById('bMsg').value.trim();
+    var lines = [d.m_hi, '', d.m_name + ': ' + name, d.m_type + ': ' + sel('bType'), d.m_obj + ': ' + sel('bObj')];
+    if(area) lines.push(d.m_area + ': ' + area + ' m²');
+    if(city) lines.push(d.m_city + ': ' + city);
+    if(msg) lines.push(d.m_msg + ': ' + msg);
+    var url = 'https://wa.me/37129185418?text=' + encodeURIComponent(lines.join('\n'));
+    var w = window.open(url, '_blank', 'noopener');
+    if(!w) window.location.href = url;
+  });
+
+  /* hero video */
+  var vid = document.getElementById('heroVideo');
+  var pauseBtn = document.getElementById('heroPause');
+  var pauseIcon = document.getElementById('heroPauseIcon');
+  function setPauseIcon(){ pauseIcon.innerHTML = '<use href="' + (vid.paused ? '#ic-play' : '#ic-pause') + '"></use>'; pauseBtn.setAttribute('aria-pressed', vid.paused ? 'true' : 'false'); refreshLabels(); }
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){ try{ vid.pause(); }catch(e){} }
+  pauseBtn.addEventListener('click', function(){
+    if(vid.paused){ var p = vid.play(); if(p && p.catch) p.catch(function(){}); } else { vid.pause(); }
+    setPauseIcon();
+  });
+  vid.addEventListener('play', setPauseIcon);
+  vid.addEventListener('pause', setPauseIcon);
+
+  /* reveal */
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, {threshold:.12, rootMargin:'0px 0px -6% 0px'});
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  var saved = 'lv';
+  try{ saved = localStorage.getItem('ilsh-lang') || 'lv'; }catch(e){}
+  applyLang(saved);
+  setPauseIcon();
+})();
+</script>
+
+</body>
+</html>
